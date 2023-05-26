@@ -1,0 +1,55 @@
+form{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+form button{
+    border-style: none;
+    background-color: #685cec;
+    color: white;
+    height: 37px;
+    padding: 0 17px;
+    border-radius: 5px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 10px 10px;
+
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=checkbox], select {
+    padding: 20px 10px;
+    min-height: 20px;
+    min-width: 20px;
+}
+.buttonFilter{
+    display: flex;
+    gap: 15px;
+}
+.flex-output{
+    display: flex;
+    align-items: center;
+}
+.output{
+    margin: 15px 0;
+    border-style: solid;
+    border-color: #c4ccdc;
+    border-width: 2.3px;
+    padding: 10px;
+    height: max-content;
+    max-height: 100%;
+}
+.action-right{
+    float: right;
+}
+.action{
+    background-color: rgba(0, 255, 255, 0);
+    border: none;
+    
+}
